@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mobi.uz</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="string">Abonent- «5555 MB» to\'plamini xarid qilgan, jismoniy shaxslar uchun mo\'ljallangan (turistlar uchun mo\'ljallangan tariflardan tashqari) oldindan to\'lov qilish hisob-kitob tizimli tarif rejalarining foydalanuvchisi.</string>
+    <string name="mobiuz"><![CDATA[<<mobiuz bilan baxtli millionlar>> aksiyasi]]></string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.mobiuz.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_internetFragment"
+            app:destination="@id/internetFragment"
+            app:enterAnim="@anim/enter_anim"
+            app:exitAnim="@anim/exit_to_right" />
+        <action
+            android:id="@+id/action_homeFragment_to_tarifFragment"
+            app:destination="@id/tarifFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_tarifFragment2"
+            app:destination="@id/tarifFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_daqiqaFragment"
+            app:destination="@id/daqiqaFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_aksiyaFragment2"
+            app:destination="@id/aksiyaFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/internetFragment"
+        android:name="com.example.mobiuz.internetFragment"
+        android:label="fragment_internet"
+        tools:layout="@layout/fragment_internet" />
+    <fragment
+        android:id="@+id/tarifFragment"
+        android:name="com.example.mobiuz.TarifFragment"
+        android:label="fragment_tarif"
+        tools:layout="@layout/fragment_tarif" />
+    <fragment
+        android:id="@+id/daqiqaFragment"
+        android:name="com.example.mobiuz.DaqiqaFragment"
+        android:label="fragment_daqiqa"
+        tools:layout="@layout/fragment_daqiqa" />
+    <fragment
+        android:id="@+id/aksiyaFragment2"
+        android:name="com.example.mobiuz.AksiyaFragment"
+        android:label="fragment_aksiya"
+        tools:layout="@layout/fragment_aksiya" />
+</navigation>
